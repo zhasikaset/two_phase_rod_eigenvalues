@@ -1,0 +1,31 @@
+== (W) clamped wall profile and six-row interface table ==
+  row 1: a^2 <= 0.16968991, b^2 >= 0.26619059, gap >= 241/2500
+  row 2: a^2 <= 0.28146970, b^2 >= 0.46224841, gap >= 1807/10000
+  row 3: a^2 <= 0.42767956, b^2 >= 0.69363239, gap >= 2659/10000
+  row 4: a^2 <= 0.60668156, b^2 >= 0.95098108, gap >= 1721/5000
+  row 5: a^2 <= 1.03977448, b^2 >= 1.21802845, gap >= 891/5000
+  row 6: a^2 <= 1.51715471, b^2 >= 1.72198978, gap >= 2047/10000
+  ratio: numerator <= 0.42767956, denominator >= 1.47985341, quotient < 3/10
+== (A) n = 2 : asymmetric competitor rho_* ==
+  D(7/10) > 0: D([7/10,7/10]) in [0.33623447,0.33623448]  sign OK
+  D(4/5)  < 0: D([4/5,4/5]) in [-0.16130329,-0.16130328]  sign OK
+  D(23)   < 0: D([23,23]) in [-2.12089725,-2.12089708]  sign OK
+  D(24)   > 0: D([24,24]) in [0.74384146,0.74384165]  sign OK
+== (B) n = 3 : periodic density, three eigenvalue brackets below 109 ==
+  D(0.55) > 0: D([11/20,11/20]) in [0.18891096,0.18891097]  sign OK
+  D(0.60) < 0: D([3/5,3/5]) in [-0.13116817,-0.13116816]  sign OK
+  D(9)   < 0: D([9,9]) in [-0.37625329,-0.37625325]  sign OK
+  D(9.1) > 0: D([91/10,91/10]) in [0.16614326,0.16614330]  sign OK
+  D(108) > 0: D([108,108]) in [4.90218918,4.90249958]  sign OK
+  D(109) < 0: D([109,109]) in [-17.38390154,-17.38357669]  sign OK
+== (B) n = 3 : competitor rho_3*, exclusion sweep on [24,120] ==
+  no root of D_3* in [24,120]  (935 boxes)
+== (C) clamped n = 2 : periodic density, two brackets below 53 ==
+  D(2.5)  > 0: D([5/2,5/2]) in [0.03025821,0.03025822]  sign OK
+  D(2.6)  < 0: D([13/5,13/5]) in [-0.01803101,-0.01803100]  sign OK
+  D(52)   < 0: D([52,52]) in [-0.25801188,-0.25801166]  sign OK
+  D(53)   > 0: D([53,53]) in [0.01768292,0.01768315]  sign OK
+== (C) clamped n = 2 : competitor rho_sharp, exclusion sweep on [16/5,66] ==
+  no root of D_sharp in [3.2,66]  (559 boxes)
+  exclusion totals: 935 boxes (hinged n=3), 559 boxes (clamped n=2)
+ALL CERTIFICATES PASSED
