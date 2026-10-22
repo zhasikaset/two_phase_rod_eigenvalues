@@ -7,7 +7,7 @@ This repository contains the code used throughout our paper
 
 The code is divided into three parts:
 
-- rigorous interval arithmetic verification;
+- rigorous interval-arithmetic verification;
 - numerical experiments and reproduction of the values reported in the paper;
 - generation of the figures.
 
@@ -44,19 +44,19 @@ It uses exact rational arithmetic together with interval enclosures. In particul
 
 The certified comparisons include
 
-\[
-\lambda_2(\rho_{\mathrm{per},2})<22<23<\lambda_2(\rho_*),
-\]
+$$
+\lambda_2(\rho_{\mathrm{per},2})<22<23<\lambda_2(\rho_*)
+$$
 
-\[
-\lambda_3(\rho_{\mathrm{per},3})<109<120<\lambda_3(\rho_{3,*}),
-\]
+$$
+\lambda_3(\rho_{\mathrm{per},3})<109<120<\lambda_3(\rho_{3,*})
+$$
 
 and
 
-\[
+$$
 \Lambda_2(\rho_{\mathrm{per},2})<53<66<\Lambda_2(\rho_\#).
-\]
+$$
 
 The same script also verifies the interval estimates used in the clamped weak-contrast argument.
 
