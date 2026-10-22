@@ -1,6 +1,6 @@
 # Failure of Periodic Maximizers for Higher Eigenvalues of Two-Phase Rods
 
-This repository contains the code used alongside our paper
+This repository contains the code used throughout our paper
 
 **Zhassulan Asset and Durvudkhan Suragan,  
 “Failure of Periodic Maximizers for Higher Eigenvalues of Two-Phase Rods.”**
