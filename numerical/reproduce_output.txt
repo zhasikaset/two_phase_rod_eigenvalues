@@ -1,0 +1,30 @@
+== Section 5, closing remark: refined eigenvalues at density ratio 20 ==
+  lambda_2(rho_per,2)  = 21.376949299530203
+  lambda_2(rho_*)      = 23.74360245739534
+  lambda_3(rho_per,3)  = 108.22080582881699
+  lambda_3(rho_3star)  = 120.4654945530902
+  Lambda_2(rho_per,2)  = 52.936342080871725
+  Lambda_2(rho_sharp)  = 66.20178038955595
+  (certified: <22, >23, <109, >120, <53, >66)
+
+== Section 3, "by hand" remark: clamped n = 2 interface values ==
+  r_2        = 3.926602312047924
+  r_2^4      = 237.72106753111788
+  v(1/4)^2   = 479.3143357078623
+  v(3/4)^2   = 135.81493512183357
+  ratio      = 0.28335254133648846  (uniform-ratio remark: <= 3/10)
+
+== Sharper floating-point values underlying Table 1 ==
+   m-range        phi-window        phi'-window       a^2      b^2    b^2-a^2
+  [0.500,0.625] [0.392,0.737] [2.649,3.561]   0.1694   0.2667   0.0972
+  [0.625,0.750] [0.491,0.859] [2.551,3.438]   0.2809   0.4625   0.1816
+  [0.750,0.875] [0.589,0.982] [2.453,3.315]   0.4267   0.6955   0.2688
+  [0.875,1.000] [0.687,1.105] [2.355,3.192]   0.6051   0.9525   0.3473
+  [1.000,1.250] [0.785,1.351] [2.158,3.070]   1.0390   1.2191   0.1801
+  [1.250,1.500] [0.981,1.596] [1.962,2.824]   1.5155   1.7221   0.2065
+  all six rows satisfy b^2 - a^2 >= 9/100
+
+== window containment theta = r_n h in [pi-2e-3, 5pi/4+2e-3] ==
+  theta ranges over [3.145520, 3.926602]; bounds are [3.139593, 3.928991]  OK
+
+done.
