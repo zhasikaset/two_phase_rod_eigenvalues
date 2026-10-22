@@ -55,7 +55,7 @@ $$
 and
 
 $$
-\Lambda_2(\rho_{\mathrm{per},2})<53<66<\Lambda_2(\rho_\#).
+\Lambda_2(\rho_{\mathrm{per},2})<53<66<\Lambda_2(\rho_{\#})
 $$
 
 The same script also verifies the interval estimates used in the clamped weak-contrast argument.
