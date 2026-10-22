@@ -1,5 +1,3 @@
-"""Figures for the manuscript.  Only rigorously certified / exactly
-computable content is plotted."""
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
