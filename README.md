@@ -1,6 +1,6 @@
 # Failure of Periodic Maximizers for Higher Eigenvalues of Two-Phase Rods
 
-This repository contains the code used throughout our paper
+This repository contains the code used alongside our paper
 
 **Zhassulan Asset and Durvudkhan Suragan,  
 “Failure of Periodic Maximizers for Higher Eigenvalues of Two-Phase Rods.”**
@@ -55,7 +55,7 @@ $$
 and
 
 $$
-\Lambda_2(\rho_{\mathrm{per},2})<53<66<\Lambda_2(\rho_{\#})
+\Lambda_2(\rho_{\mathrm{per},2})<53<66<\Lambda_2(\rho_{\sharp})
 $$
 
 The same script also verifies the interval estimates used in the clamped weak-contrast argument.
